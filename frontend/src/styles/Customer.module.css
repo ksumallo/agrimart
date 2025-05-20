@@ -1,0 +1,159 @@
+/*div,
+aside,
+section,
+button {
+	background: rgba(0, 0, 0, 0.05);
+	border-radius: 0.25rem;
+	display: flex;
+}
+
+input,
+select,
+textarea {
+	border-radius: 0.25rem;
+}
+
+.customer_dashboard {
+	display: flex;
+	height: 100dvh;
+	width: 100dvw;
+	justify-content: space-between;
+	align-items: flex-start;
+	gap: 0.625rem;
+}
+
+.space_filler {
+	display: flex;
+	flex: 1 0 0;
+	align-self: stretch;
+}
+*/
+.products_header {
+	display: flex;
+	height: 4.6875rem;
+	padding: 1.25rem;
+	align-items: center;
+	gap: 1.25rem;
+	align-self: stretch;
+}
+
+.products_searchbar {
+	display: flex;
+	padding: 1.25rem;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25rem;
+	flex: 1;
+	align-self: stretch;
+}
+
+.products_categories {
+	align-self: stretch;
+	flex-wrap: wrap;
+}
+
+.product_category {
+	display: flex;
+	height: 0.5rem;
+	min-width: 10.625rem;
+	padding: 1.25rem;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25rem;
+	flex: 1 0 0;
+}
+
+.products_view {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+	flex: 1 0 0;
+	align-self: stretch;
+}
+
+.product_card {
+	display: flex;
+	width: 9.375rem;
+	height: 30%;
+	padding: 1.25rem;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 1.25rem;
+	background-color: rgb(255, 255, 255);
+}
+
+.product_details {
+	display: flex;
+	height: 7.5rem;
+	padding: 1.25rem;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25rem;
+	align-self: stretch;
+	flex-wrap: wrap;
+}
+
+.product_details img {
+	width: 10%;
+}
+
+.product_img {
+	width: 100%;
+	height: 300px;
+	object-fit: contain;
+}
+
+.cart {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 0.9375rem;
+	justify-content: space-between;
+	align-self: stretch;
+}
+
+.cart_header {
+	display: flex;
+	width: 18.75rem;
+	height: 5.9375rem;
+	padding: 1.5625rem 1.25rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25rem;
+}
+
+.cart_list {
+	display: flex;
+	width: 18.75rem;
+	padding: 1.5625rem 1.25rem;
+	flex-direction: column;
+	align-items: center;
+	gap: 1.25rem;
+	flex: 1;
+	overflow-y: auto;
+}
+
+.cart_checkout {
+	display: flex;
+	width: 18.75rem;
+	height: 5.9375rem;
+	padding: 1.5625rem 1.25rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1.25rem;
+}
+
+.cart_list_item {
+	display: flex;
+	height: 2.5rem;
+	padding: 1.5625rem 1.25rem;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	gap: 1.25rem;
+	align-self: stretch;
+}
